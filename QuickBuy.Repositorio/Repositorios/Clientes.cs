@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+using QuickBuy.Dominio.Entidades;
 
 namespace QuickBuy.Repositorio.Repositorios
 {
@@ -9,6 +8,7 @@ namespace QuickBuy.Repositorio.Repositorios
         public Clientes()
         {
             var usuarioRepositorio = new UsuarioRepositorio();
+            var usuario = new Usuario();
             usuarioRepositorio.Adicionar(usuario);
         }
     }
