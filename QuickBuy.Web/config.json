@@ -1,0 +1,6 @@
+{
+  "ConectionStrings": {
+    "SqlServerConnection": null,
+    "QuickBuyDB": "server=localhost;uid=root;pwd=airjordan6;database=QuickBuyDB"
+  }
+}
