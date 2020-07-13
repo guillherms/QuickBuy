@@ -5,7 +5,7 @@ namespace QuickBuy.Dominio.Entidades
 {
     public abstract class Entidade
     {
-        public List<string> _mensagenValidacao { get; set; }
+        private List<string> _mensagenValidacao { get; set; }
         private List<string> mensagemValidacao
         {
             
